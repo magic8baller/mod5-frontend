@@ -1,5 +1,7 @@
 import React from 'react'
 
+// one option is iframe ?
+
 const SpotifyPlayer = props => {
   const srcCode = `https://open.spotify.com/embed/user/${
     props.ownerUsername
